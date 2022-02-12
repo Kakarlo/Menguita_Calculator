@@ -42,6 +42,9 @@ public class MainActivity extends AppCompatActivity {
             case R.id.Remainder:
                 ans.setText(Double.toString(doModulo(operand1,operand2)));
                 break;
+            case R.id.Equal:
+                ans.setText(doEqual(operand1, operand2));
+                break;
 
     }}
 
@@ -62,6 +65,13 @@ public class MainActivity extends AppCompatActivity {
 
     public static double doModulo(double operand1, double operand2){
         return operand1 % operand2;
+    }
+    public static String doEqual(double operand1, double operand2){
+        if (operand1 == operand2) {
+            return "Equal";
+        } else {
+            return "not Equal";
+        }
     }
 
 }

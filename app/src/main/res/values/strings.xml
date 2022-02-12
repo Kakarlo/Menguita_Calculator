@@ -10,5 +10,5 @@
     <string name="Division">\u00F7</string>
     <string name="Remainder">/</string>
     <string name="Equal">=</string>
-    <string name="TheResultIs">The Result Is:</string>
+    <string name="TheResultIs">The Result Is: </string>
 </resources>
